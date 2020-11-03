@@ -31,7 +31,9 @@ if not_sleep == "y":
                     print("")
                     time.sleep(1)
                 else:
-                    print("おやすみなさい。素敵な悪夢を見てね ＠・ω・＠ﾉｼ")
+                    print("おやすみなさい")
+                    time.sleep(1)
+                    print("🐏 🐏 🐏 素敵な悪夢を見てね 🐏　🐏　🐏")
                     is_awake = True
             else:
                 print(f"ヒツジが{cnt_hitsuji}匹")
