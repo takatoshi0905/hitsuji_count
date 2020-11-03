@@ -10,7 +10,7 @@ is_awake = False
 # 実行時のOPコメント
 print("こんばんは")
 print("眠れないのかい？")
-not_sleep = input("はい：y いいえ：n で答えてね")
+not_sleep = input("はい：y いいえ：n で答えてね >> ")
 
 # 眠れない場合はヒツジを一緒に数える
 if not_sleep == "y":
@@ -25,7 +25,7 @@ if not_sleep == "y":
                 time.sleep(2)
                 print("")
                 print("…もう、眠れそうかい？")
-                not_sleep = input("はい：y いいえ：n で答えてね")
+                not_sleep = input("はい：y いいえ：n で答えてね >> ")
                 if not_sleep != "y":
                     print("じゃぁ、もう10匹ずつ数えてみようね")
                     print("")
