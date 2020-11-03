@@ -32,5 +32,3 @@ elif not_sleep == "n":
 else:
     print("は？ 何言ってるの？")
     # yかn以外で押すと怒られる！
-
-    # https://github.com/takatoshi0905/hitsuji_count
