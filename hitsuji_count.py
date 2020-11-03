@@ -1,9 +1,15 @@
 import time
+# ヒツジの数を格納する変数
 cnt_hitsuji = 0
+
+# 眠気フラグ
 is_awake = False
+
 print("こんばんは")
 print("眠れないのかい？")
 not_sleep = input("はい：y いいえ：n で答えてね")
+
+# 眠れない場合はヒツジを一緒に数える
 if not_sleep == "y":
     print("じゃぁ、一緒にヒツジを数えてみようね")
     while is_awake == False:
