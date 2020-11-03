@@ -31,4 +31,3 @@ elif not_sleep == "n":
     print("それなら早く寝なさい！！")
 else:
     print("は？ 何言ってるの？")
-    # yかn以外で押すと怒られる！
